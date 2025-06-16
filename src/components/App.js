@@ -8,7 +8,7 @@ const App = () => {
     <div className="main">
         <div className="toolTip__div">
           <Tooltip text="This is tooltip">
-            <h1>Hover over me</h1>
+            <h2>Hover over me</h2>
           </Tooltip>
         </div>
         <div className="toolTip__div">
