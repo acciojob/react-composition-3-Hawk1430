@@ -7,13 +7,17 @@ const App = () => {
   return (
     <div className="main">
         
-          <Tooltip text="This is tooltip">
-            <h2>Hover over me</h2>
-          </Tooltip>
+          <h2 className="tooltip">
+            <Tooltip text="This is tooltip">
+              Hover over me
+            </Tooltip>
+          </h2>
 
-          <Tooltip text="This is another tooltip">
-            <p>Hover over me to see another tooltip</p>
-          </Tooltip>
+          <p className="tooltip">
+            <Tooltip text="This is another tooltip">
+              Hover over me to see another tooltip
+            </Tooltip>
+          </p>
 
     </div>
   )
